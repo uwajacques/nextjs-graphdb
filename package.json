@@ -1,8 +1,8 @@
 {
-  "name": "next-auth-typescript-example",
+  "name": "nextjs-graphdb",
   "version": "0.0.0",
   "private": true,
-  "description": "An example project for NextAuth.js using Typescript",
+  "description": "Next GraphDB",
   "repository": "https://github.com/nextauthjs/next-auth-typescript-example.git",
   "bugs": {
     "url": "https://github.com/nextauthjs/next-auth/issues"
@@ -15,12 +15,8 @@
     "start": "next start",
     "types": "tsc --noEmit"
   },
-  "author": "Lluis Agusti <lluis@hey.com>",
-  "contributors": [
-    "Balázs Orbán <info@balazsorban.com>",
-    "Iain Collins <me@iaincollins.com>",
-    "Nico Domino <yo@ndo.dev>"
-  ],
+  "author": "Jacques Uwamungu <uwajacques@gmail.com>",
+  "contributors": [],
   "license": "ISC",
   "prettier": {
     "semi": false
@@ -36,6 +32,10 @@
     "@types/node": "^15.12.4",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.19",
     "typescript": "^4.3.4"
   }
 }
